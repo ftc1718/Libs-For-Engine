@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\src\ga.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\src\gau.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\src\ga_stream.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\src\devices\ga_openal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\src\common\gc_common.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\src\common\gc_thread.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libogg\src\bitwise.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libogg\src\framing.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\analysis.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\bitrate.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\block.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\codebook.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\envelope.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\floor0.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\floor1.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\info.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\lpc.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\lsp.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\mapping0.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\mdct.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\psy.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\registry.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\res0.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\sharedbook.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\smallft.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\synthesis.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\vorbisfile.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\lib\window.c">
+      <Filter>src\oggvorbis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\include\gorilla\ga.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\include\gorilla\gau.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\include\gorilla\ga_internal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\include\gorilla\devices\ga_openal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\include\gorilla\common\gc_common.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\include\gorilla\common\gc_thread.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\include\gorilla\common\gc_types.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\ext\libogg\include\ogg\ogg.h">
+      <Filter>include\oggvorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\ext\libogg\include\ogg\os_types.h">
+      <Filter>include\oggvorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\include\vorbis\codec.h">
+      <Filter>include\oggvorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\include\vorbis\vorbisenc.h">
+      <Filter>include\oggvorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Documents\Libs\GorillaAudio\ext\libvorbis\include\vorbis\vorbisfile.h">
+      <Filter>include\oggvorbis</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Libs\GorillaAudio\build\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2566B6EF-20D6-3777-A74C-300F891340BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{BEC7E493-5DF2-3D91-8F1A-0D81CE37C7D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common">
+      <UniqueIdentifier>{B9155ABE-0E88-3359-8044-03BA0940CEBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\oggvorbis">
+      <UniqueIdentifier>{3B9FD637-AF11-34CB-8E32-45CA5923A824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{5258B8CD-B016-368E-BC03-BB42997F7EC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\oggvorbis">
+      <UniqueIdentifier>{40F83340-3F9C-35AF-9E86-6FE6E3A5A784}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

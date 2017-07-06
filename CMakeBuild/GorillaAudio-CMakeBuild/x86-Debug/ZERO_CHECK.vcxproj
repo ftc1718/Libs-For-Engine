@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{30F4AD56-CEB5-35E7-9F30-7957B4FA1B14}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VisualStudioCMakeGeneratedProject>3.6.20160606-g0391f-MSVC</VisualStudioCMakeGeneratedProject>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\Libs\GorillaAudio\build\..\ext\OpenAL\include;D:\Documents\Libs\GorillaAudio\build\..\include;D:\Documents\Libs\GorillaAudio\build\..\ext\libogg\include;D:\Documents\Libs\GorillaAudio\build\..\ext\libvorbis\include;D:\Documents\Libs\GorillaAudio\build\..\ext\libogg\src;D:\Documents\Libs\GorillaAudio\build\..\ext\libvorbis\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Documents\Libs\GorillaAudio\build\..\ext\OpenAL\include;D:\Documents\Libs\GorillaAudio\build\..\include;D:\Documents\Libs\GorillaAudio\build\..\ext\libogg\include;D:\Documents\Libs\GorillaAudio\build\..\ext\libvorbis\include;D:\Documents\Libs\GorillaAudio\build\..\ext\libogg\src;D:\Documents\Libs\GorillaAudio\build\..\ext\libvorbis\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\d6a20c3532ac4e57fe75ee20948972a8\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\VS2017COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\CMake\bin\cmake.exe -HD:/Documents/Libs/GorillaAudio/build -BD:/Documents/Libs/CMakeBuild/GorillaAudio-CMakeBuild/x86-Debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Documents/Libs/CMakeBuild/GorillaAudio-CMakeBuild/x86-Debug/CMakeFiles/d6a20c3532ac4e57fe75ee20948972a8/generate.stamp.rule;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeCCompiler.cmake;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeCXXCompiler.cmake;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeRCCompiler.cmake;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeSystem.cmake;D:\Documents\Libs\GorillaAudio\build\CMakeLists.txt;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\VS2017COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\CMAKE\CMake\bin\cmake.exe -HD:/Documents/Libs/GorillaAudio/build -BD:/Documents/Libs/CMakeBuild/GorillaAudio-CMakeBuild/x86-Debug --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Documents/Libs/CMakeBuild/GorillaAudio-CMakeBuild/x86-Debug/CMakeFiles/d6a20c3532ac4e57fe75ee20948972a8/generate.stamp.rule;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeCCompiler.cmake;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeCXXCompiler.cmake;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeRCCompiler.cmake;D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\3.6.20160606-g0391f-MSVC\CMakeSystem.cmake;D:\Documents\Libs\GorillaAudio\build\CMakeLists.txt;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeCInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\Windows.cmake;D:\vs2017Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Documents\Libs\CMakeBuild\GorillaAudio-CMakeBuild\x86-Debug\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
